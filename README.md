@@ -13,4 +13,3 @@
 | 2 | Lê Võ Tiến Phát | 19521993 |   
 | 3 | Hồ Thịnh | 19522274 | 
 
-## Bài tâp: Tìm các ví dụ về bài toán regression trong thực tế.
