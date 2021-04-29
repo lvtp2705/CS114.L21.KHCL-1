@@ -11,7 +11,10 @@ Input: Chiều cao(đơn vị: cm; kiểu dữ liệu: float).
 
 Output: Cân nặng(đơn vị: kg; kiểu dữ liệu: float).
 
-Thu thập dữ liệu: Tạo form để mọi người có thể điền các thông tin: chiều cao, cân nặng.
+Thu thập dữ liệu: 
+- Lấy thông tin tại các cơ sở y tế.
+
+- Tạo form để mọi người có thể điền các thông tin: chiều cao, cân nặng.
 
 Xử lí dữ liệu:
 - Gom các dữ liệu vào một file CSV. 
