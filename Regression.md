@@ -7,9 +7,9 @@
 
 ## Bài tâp: Tìm các ví dụ về bài toán regression trong thực tế.
 ### Ví dụ 1: Dự đoán cân nặng thông qua chiều cao của người đó.
-Input: Chiều cao(cm).
+Input: Chiều cao(đơn vị: cm; kiểu dữ liệu: float).
 
-Output: Cân nặng(kg).
+Output: Cân nặng(đơn vị: kg; kiểu dữ liệu: float).
 
 Thu thập dữ liệu: Tạo form để mọi người có thể điền các thông tin: chiều cao, cân nặng.
 
@@ -20,9 +20,9 @@ Xử lí dữ liệu:
 
 - Loại bỏ các dòng mà thuộc tính có giá trị bất thường (Ví dụ: số âm, số quá nhỏ, số quá lớn).
 ### Ví dụ 2: Dự đoán tiền lương của một giáo viên.
-Input: Tuổi nghề(năm), học hàm,học vị của giáo viên đó (0: Cử nhân, 1: Giáo sư, 2: Tiến sĩ,...).
+Input: Tuổi nghề(đơn vị: năm; kiểu dữ liệu: int), học hàm,học vị của giáo viên đó (0: Cử nhân, 1: Giáo sư, 2: Tiến sĩ,...).
 
-Output: Lương của giáo viên đó (đồng).
+Output: Lương của giáo viên đó (đơn vị: đồng; kiểu dữ liệu: int).
 
 Thu thập dữ liệu: 
 - Thu thập dữ liệu ở các ngôi trường.
@@ -36,9 +36,9 @@ Xử lí dữ liệu:
 - Loại bỏ các dòng mà thuộc tính có giá trị bất thường (Ví dụ: số âm, số quá lớn,...)
 
 ### Ví dụ 3: Dự đoán tỉ lệ mua hàng của một người đối với một món hàng cụ thể.
-Input: Độ tuổi, giới tính(0: Nam, 1: Nữ), thu nhập(đồng).
+Input: Độ tuổi(kiểu dữ liệu: int), giới tính(0: Nam, 1: Nữ), thu nhập(đơn vị: đồng, kiểu dữ liệu: int).
 
-Output: Tỉ lệ mua hàng(%).
+Output: Tỉ lệ mua hàng(kiểu dữ liệu: float).
 
 Thu thập dữ liệu: Tạo form để mọi người điền các thông tin cần thiết vào.
 
