@@ -22,7 +22,7 @@ Xử lí dữ liệu:
 ### Ví dụ 2: Dự đoán tiền lương của một giáo viên.
 Input: Tuổi nghề(năm), học hàm,học vị của giáo viên đó (0: Cử nhân, 1: Giáo sư, 2: Tiến sĩ,...).
 
-Output: Lương của giáo viên đó.
+Output: Lương của giáo viên đó (đồng).
 
 Thu thập dữ liệu: 
 - Thu thập dữ liệu ở các ngôi trường.
@@ -36,9 +36,9 @@ Xử lí dữ liệu:
 - Loại bỏ các dòng mà thuộc tính có giá trị bất thường (Ví dụ: số âm, số quá lớn,...)
 
 ### Ví dụ 3: Dự đoán tỉ lệ mua hàng của một người đối với một món hàng cụ thể.
-Input: Độ tuổi, giới tính(0: Nam, 1: Nữ), thu nhập.
+Input: Độ tuổi, giới tính(0: Nam, 1: Nữ), thu nhập(đồng).
 
-Output: Tỉ lệ mua hàng.
+Output: Tỉ lệ mua hàng(%).
 
 Thu thập dữ liệu: Tạo form để mọi người điền các thông tin cần thiết vào.
 
