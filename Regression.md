@@ -7,8 +7,13 @@
 
 ## Bài tâp: Tìm các ví dụ về bài toán regression trong thực tế.
 ### Ví dụ 1: Dự đoán giới tính của người thông qua chiều cao và cân nặng của người đó.
-Input: Chiều cao(inch) và cân nặng(pound).
+Input: Chiều cao(cm) và cân nặng(kg).
 
 Output: Giới tính của người đó(Male or Female).
 
-Cách thu thập dữ liệu: Dữ liệu lấy trên Kaggle. Link: https://www.kaggle.com/mustafaali96/weight-height?select=weight-height.csv
+Cách thu thập dữ liệu: Tạo form để mọi người có thể điền đầy đủ các thông tin: chiều cao, cân nặng, giới tính.
+
+Xử lí dữ liệu:
+- Gom các dữ liệu vào một file có định dạng CSV. 
+
+- Loại bỏ các dòng có thuộc tính có giá trị bất thường (Ví dụ: số âm, số 0, số quá nhỏ, số quá lớn)
