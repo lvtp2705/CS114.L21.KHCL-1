@@ -10,9 +10,28 @@
 Input: Chiều cao(cm).
 
 Output: Cân nặng(kg).
-Cách thu thập dữ liệu: Tạo form để mọi người có thể điền đầy đủ các thông tin: chiều cao, cân nặng.
+
+Thu thập dữ liệu: Tạo form để mọi người có thể điền các thông tin: chiều cao, cân nặng.
 
 Xử lí dữ liệu:
 - Gom các dữ liệu vào một file có định dạng CSV. 
 
-- Loại bỏ các dòng có thuộc tính có giá trị bất thường (Ví dụ: số âm, số quá nhỏ, số quá lớn)
+- Loại bỏ các dòng mà thuộc tính không có giá trị(Null).
+
+- Loại bỏ các dòng mà thuộc tính có giá trị bất thường (Ví dụ: số âm, số quá nhỏ, số quá lớn).
+### Ví dụ 2: Dự đoán tiền lương của một giáo viên.
+Input: Tuổi nghề(năm), học hàm,học vị của giáo viên đó (0: Cử nhân, 1: Giáo sư, 2: Tiến sĩ,...).
+
+Output: Lương của giáo viên đó.
+
+Thu thập dữ liệu: 
+- Thu thập dữ liệu ở các ngôi trường.
+- Hoặc tạo form để các giáo viên điền các thông tin.
+
+Xử lí dữ liệu:
+- Gom các dữ liệu vào một file có định dạng CSV. 
+
+- Loại bỏ các dòng mà thuộc tính không có giá trị(Null).
+
+- Loại bỏ các dòng mà thuộc tính có giá trị bất thường (Ví dụ: số âm hoặc số quá lớn)
+
